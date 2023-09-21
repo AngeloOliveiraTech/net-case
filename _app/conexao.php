@@ -2,7 +2,7 @@
 
 try
 {
-    $pdo = new PDO('mysql:netcase.mysql.database.azure.com;dbname=tcc;charset=utf8', 'netcase', 'Tcc@2023');
+    $pdo = new PDO('mysql:netcase.mysql.database.azure.com; dbname:tcc', 'netcase', 'Tcc@2023');
 }
 catch(PDOException $e)
 {
