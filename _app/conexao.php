@@ -2,7 +2,11 @@
 
 try
 {
-    $pdo = new PDO('mysql:netcase.mysql.database.azure.com; dbname:tcc', 'netcase', 'Tcc@2023');
+    $dsn = 'mysql:dbname=tcc; host=netcase.mysql.database.azure.com; port=3306; charset=utf8';
+    $user = 'netcase';
+    $password = 'Tcc@2023';
+    
+    $dbh = new PDO($dsn, $user, $password);
 }
 catch(PDOException $e)
 {
