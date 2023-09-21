@@ -17,4 +17,4 @@
 
 $con = mysqli_init();
 mysqli_ssl_set($con,NULL,NULL, "{path to CA cert}", NULL, NULL);
-mysqli_real_connect($conn, "netcase.mysql.database.azure.com", "netcase", "Tcc@2023", "tcc", 3306, MYSQLI_CLIENT_SSL);
+mysqli_real_connect($conn, "netcase.mysql.database.azure.com", "netcase", "Tcc@2023dugvdbs", "tcc", 3306, MYSQLI_CLIENT_SSL);
