@@ -1,6 +1,6 @@
 <?php
 
-include '../_app/conexao.php';
+require '../_app/conexao.php';
     
     $post= filter_input_array(INPUT_POST, FILTER_DEFAULT);
 

@@ -3,7 +3,7 @@
 //error_reporting(0);
 
 session_start();
-include '../_app/conexao.php';
+require '../_app/conexao.php';
 $email = filter_input(INPUT_POST, 'usu_email', FILTER_DEFAULT);
 $senha = filter_input(INPUT_POST, 'usu_senha', FILTER_DEFAULT);
 $novasenha = MD5($senha);
