@@ -173,7 +173,7 @@
                                                                 <i class="material-icons prefix">location_searching</i>
                                                                 <select name="usu_uf_id" required name=usu_uf_id class="validate">
                                                                     <?php
-                                                                    require '../_app/conexao.php';
+                                                                    include '../_app/conexao.php';
              
                                                                     $sth = $pdo->prepare("select * from uf");
                                                                     $sth->execute();
