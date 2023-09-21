@@ -4,7 +4,7 @@ try
 {
     $dsn = 'mysql:dbname=tcc; host=netcase.mysql.database.azure.com; charset=utf8';
     $user = 'netcase';
-    $password = 'Tcc@2023';
+    $password = 'Tcc@202';
     
     $dbh = new PDO($dsn, $user, $password);
 
